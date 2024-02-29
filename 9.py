@@ -1,0 +1,87 @@
+import turtle
+
+radius = 150
+
+turtle.speed('fast')
+
+turtle.color('white', 'blue')
+turtle.begin_fill()
+turtle.right(30)
+turtle.forward(radius)
+turtle.left(90)
+turtle.circle(radius, 120)
+turtle.left(90)
+turtle.forward(radius)
+turtle.left(180)
+turtle.end_fill()
+
+turtle.color('white', 'purple')
+turtle.begin_fill()
+turtle.forward(radius)
+turtle.left(90)
+turtle.circle(radius, 25)
+turtle.left(90)
+turtle.forward(radius)
+turtle.left(180)
+turtle.end_fill()
+
+turtle.color('white', 'green')
+turtle.begin_fill()
+turtle.forward(radius)
+turtle.left(90)
+turtle.circle(radius, 47)
+turtle.left(90)
+turtle.forward(radius)
+turtle.left(180)
+turtle.end_fill()
+
+turtle.color('white', 'orange')
+turtle.begin_fill()
+turtle.forward(radius)
+turtle.left(90)
+turtle.circle(radius, 76)
+turtle.left(90)
+turtle.forward(radius)
+turtle.left(180)
+turtle.end_fill()
+
+turtle.color('white', 'red')
+turtle.begin_fill()
+turtle.forward(radius)
+turtle.left(90)
+turtle.circle(radius, 92)
+turtle.left(90)
+turtle.forward(radius)
+turtle.end_fill()
+
+turtle.up()
+turtle.color('black')
+
+turtle.right(10)
+turtle.forward(radius+5)
+turtle.down()
+turtle.write('D')
+turtle.up()
+
+turtle.left(90)
+turtle.circle(radius+10, 61)
+turtle.down()
+turtle.write('C')
+turtle.up()
+
+turtle.circle(radius+10, 84)
+turtle.down()
+turtle.write('B')
+turtle.up()
+
+turtle.circle(radius+10, 106)
+turtle.down()
+turtle.write('A')
+turtle.up()
+
+turtle.circle(radius+10, 72)
+turtle.down()
+turtle.write('E')
+turtle.up()
+
+turtle.done()
